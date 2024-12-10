@@ -1,0 +1,43 @@
+To install Docker on your MacBook via the terminal, follow these steps:
+
+Step 1: Install Homebrew (If Not Already Installed)
+Homebrew is a package manager for macOS, which simplifies the installation process.
+
+Open the Terminal.
+Run the following command to install Homebrew:
+bash
+Copy code
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+After installation, ensure Homebrew is up-to-date:
+bash
+Copy code
+brew update
+Step 2: Install Docker Using Homebrew
+Install Docker:
+bash
+Copy code
+brew install --cask docker
+This will download and install Docker Desktop.
+Step 3: Start Docker Desktop
+After installation, start Docker Desktop:
+bash
+Copy code
+open /Applications/Docker.app
+Follow the setup instructions in Docker Desktop.
+Step 4: Verify Installation
+Open the Terminal.
+Check the Docker version:
+bash
+Copy code
+docker --version
+Run a test container:
+bash
+Copy code
+docker run hello-world
+Step 5: (Optional) Install Docker CLI Tools
+To ensure Docker CLI tools work correctly:
+
+Link Docker CLI to your shell:
+bash
+Copy code
+ln -s /Applications/Docker.app/Contents/Resources/bin/docker /usr/local/bin/docker
