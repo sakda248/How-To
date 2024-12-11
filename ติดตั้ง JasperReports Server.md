@@ -1,6 +1,6 @@
 ## ติดตั้ง JasperReports Server 9.0.0 ใน Docker ด้วย Ubuntu 24
 
-### วิธีและแนะนำ
+### แนะนำเอกสาร
 เอกสารนี้แสดงขั้นตอนการติดตั้ง JasperReports Server 9.0.0 บน Docker โดยใช้ Ubuntu เป็น Base Image และอธิบายการตั้งค่าที่จำเป็น
 
 ---
