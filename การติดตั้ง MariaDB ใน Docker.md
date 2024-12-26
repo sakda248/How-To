@@ -38,7 +38,7 @@ docker ps
 1. ดาวน์โหลดไฟล์ฐานข้อมูล Sakila:
    ```bash
    wget https://downloads.mariadb.com/MariaDB/mariadb-sakila-db/sakila-schema.sql
-   wget [https://downloads.mariadb.com/MariaDB/mariadb-sakila-db/sakila-data.sql](https://github.com/sakda248/How-To/blob/1e33059d115005d1f511ebae190acd9aedf67c7b/sakila-data.sql)
+   wget https://downloads.mariadb.com/MariaDB/mariadb-sakila-db/sakila-data.sql](https://github.com/sakda248/How-To/blob/1e33059d115005d1f511ebae190acd9aedf67c7b/sakila-data.sql)
    ```
 
 ---
