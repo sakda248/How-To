@@ -37,8 +37,8 @@ docker ps
 ### ตัวอย่างฐานข้อมูล Sakila
 1. ดาวน์โหลดไฟล์ฐานข้อมูล Sakila:
    ```bash
-   wget https://github.com/sakda248/How-To/blob/801f5ac341adef8dca151a6a971c910c8d0a956e/sakila-schema.sql
-   wget https://github.com/sakda248/How-To/blob/1e33059d115005d1f511ebae190acd9aedf67c7b/sakila-data.sql
+   wget https://raw.githubusercontent.com/sakda248/How-To/refs/heads/main/sakila-schema.sql
+   wget https://raw.githubusercontent.com/sakda248/How-To/refs/heads/main/sakila-data.sql
    ```
 
 ---
