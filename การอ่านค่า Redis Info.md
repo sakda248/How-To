@@ -4,93 +4,93 @@
 #### used_memory: 1282240
 
 - การใช้หน่วยความจำทั้งหมดใน Redis (ในหน่วยไบต์) ซึ่งในกรณีนี้ใช้ไป 1.22 MB.
-# used_memory_human: 1.22M
+#### used_memory_human: 1.22M
 
 - การแสดงผลแบบมนุษย์ที่เข้าใจง่าย ใช้หน่วยความจำทั้งหมดในรูปแบบที่อ่านง่ายขึ้น (1.22 MB).
-used_memory_rss: 1392640
+#### used_memory_rss: 1392640
 
 - ขนาดของหน่วยความจำที่ Redis ใช้จริงในระบบปฏิบัติการ (Resident Set Size - RSS), ซึ่งคือ 1.33 MB.
-used_memory_rss_human: 1.33M
+#### used_memory_rss_human: 1.33M
 
 - แสดงผล RSS ในรูปแบบที่เข้าใจง่าย: 1.33 MB.
-used_memory_peak: 1282864
+#### used_memory_peak: 1282864
 
 - การใช้งานหน่วยความจำสูงสุดที่เคยใช้ โดยมีขนาด 1.22 MB.
-used_memory_peak_human: 1.22M
+#### used_memory_peak_human: 1.22M
 
 - แสดงการใช้หน่วยความจำสูงสุดในรูปแบบที่เข้าใจง่าย.
-used_memory_peak_perc: 99.95%
+#### used_memory_peak_perc: 99.95%
 
 - เปอร์เซ็นต์ของการใช้หน่วยความจำสูงสุดเมื่อเทียบกับการใช้งานปัจจุบัน ซึ่งใช้ไปถึง 99.95%.
-used_memory_overhead: 1099352
+#### used_memory_overhead: 1099352
 
 - จำนวนหน่วยความจำที่ Redis ใช้เพื่อจัดการโครงสร้างข้อมูลต่าง ๆ (Overhead) เช่น การจัดการกับคีย์, ดัชนี, ฯลฯ. ค่าในกรณีนี้คือ 1.1 MB.
-used_memory_startup: 1099024
+#### used_memory_startup: 1099024
 
 - หน่วยความจำที่ Redis ใช้เมื่อเริ่มต้นทำงาน.
-used_memory_dataset: 182888
+#### used_memory_dataset: 182888
 
 - ขนาดของข้อมูลที่แท้จริงใน Redis (ไม่รวม Overhead) โดยใช้ไป 0.18 MB.
-used_memory_dataset_perc: 99.82%
+#### used_memory_dataset_perc: 99.82%
 
 - เปอร์เซ็นต์ของการใช้หน่วยความจำจริงใน Redis เมื่อเทียบกับการใช้หน่วยความจำทั้งหมด.
 ## 2. ข้อมูลเกี่ยวกับหน่วยความจำที่จัดสรร (Allocator)
-allocator_allocated: 1247472
+#### allocator_allocated: 1247472
 
 - ขนาดของหน่วยความจำที่ Redis ขอให้ระบบจัดสรร (Allocated memory) จากตัวจัดการหน่วยความจำ (Allocator) โดย Redis ขอให้จัดสรรทั้งหมด 1.22 MB.
-allocator_active: 1360896
+#### allocator_active: 1360896
 
 - ขนาดของหน่วยความจำที่ใช้งานจริง (Active memory) ซึ่งในกรณีนี้คือ 1.36 MB.
-allocator_resident: 1360896
+#### allocator_resident: 1360896
 
 - ขนาดของหน่วยความจำที่ถูกจับจองในระบบจริง (Resident memory) โดยไม่สามารถใช้พื้นที่อื่น.
-total_system_memory: 8589934592
+#### total_system_memory: 8589934592
 
 - ขนาดหน่วยความจำทั้งหมดในระบบของคุณ (8 GB).
-total_system_memory_human: 8.00G
+#### total_system_memory_human: 8.00G
 
 - แสดงจำนวนหน่วยความจำทั้งหมดในระบบในรูปแบบที่เข้าใจง่าย.
 ## 3. ข้อมูลเกี่ยวกับ Lua, Scripts และ Functions
-used_memory_lua: 31744
+#### used_memory_lua: 31744
 
 - หน่วยความจำที่ Redis ใช้ในการประมวลผล Lua scripts (32 KB).
-used_memory_vm_eval: 31744
+#### used_memory_vm_eval: 31744
 
 - จำนวนหน่วยความจำที่ Redis ใช้สำหรับการประมวลผลคำสั่งใน Virtual Machine.
-used_memory_scripts_eval: 0
+#### used_memory_scripts_eval: 0
 
 - ใช้หน่วยความจำในการประมวลผลสคริปต์ที่ถูกเรียกใช้ ซึ่งในกรณีนี้ไม่มีการใช้หน่วยความจำจากสคริปต์.
 ## 4. ข้อมูลการตั้งค่าหน่วยความจำ
-maxmemory: 0
+#### maxmemory: 0
 
 - ไม่ได้ตั้งค่าขีดจำกัดสูงสุดของหน่วยความจำ (ใช้ค่า 0 แสดงว่าไม่มีการจำกัด).
-maxmemory_human: 0B
+#### maxmemory_human: 0B
 
 - ขีดจำกัดของหน่วยความจำในรูปแบบที่มนุษย์เข้าใจได้ (ไม่มีการจำกัดหน่วยความจำ).
-maxmemory_policy: noeviction
+#### maxmemory_policy: noeviction
 
 - นโยบายการจัดการหน่วยความจำ เมื่อ Redis ใช้หน่วยความจำเต็มจะไม่ลบข้อมูลใด ๆ (ไม่ใช้ eviction) ซึ่งเป็นการกำหนดให้ไม่มีการลบข้อมูลจาก Redis เมื่อหน่วยความจำเต็ม.
 ## 5. ข้อมูลเกี่ยวกับการจัดการกับหน่วยความจำ (Fragmentation)
-allocator_frag_ratio: 1.09
+#### allocator_frag_ratio: 1.09
 
 - อัตราการแตกของหน่วยความจำที่ Redis ขอให้จัดสรร (allocator fragmentation ratio). ค่าเกิน 1.0 แสดงว่ามีการแตกของหน่วยความจำบ้าง.
-allocator_frag_bytes: 113424
+#### allocator_frag_bytes: 113424
 
 - จำนวนหน่วยความจำที่ Redis ใช้ไปในการแตกหน่วยความจำ (แสดงเป็นไบต์).
-mem_fragmentation_ratio: 1.12
+#### mem_fragmentation_ratio: 1.12
 
 - อัตราการแตกของหน่วยความจำที่ Redis ใช้ (memory fragmentation ratio). ค่านี้บ่งชี้ว่ามีการแตกหน่วยความจำบางส่วน.
-mem_fragmentation_bytes: 145168
+#### mem_fragmentation_bytes: 145168
 
 - จำนวนหน่วยความจำที่ Redis ใช้ในกระบวนการแตกหน่วยความจำ (แสดงเป็นไบต์).
 ## 6. ข้อมูลอื่น ๆ
-active_defrag_running: 0
+#### active_defrag_running: 0
 
 - ระบุว่ากระบวนการ Defragmentation (การรวมหน่วยความจำที่แตก) กำลังทำงานอยู่หรือไม่ (0 คือไม่ทำงาน).
-lazyfree_pending_objects: 0
+#### lazyfree_pending_objects: 0
 
 - จำนวนของออบเจกต์ที่กำลังรอการลบอย่างขี้เกียจ (lazy freeing) ซึ่งในกรณีนี้ไม่มี.
-lazyfreed_objects: 0
+#### lazyfreed_objects: 0
 
 - จำนวนของออบเจกต์ที่ได้ถูกลบแล้ว.
 ## สรุป:
